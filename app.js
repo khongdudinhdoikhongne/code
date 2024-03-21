@@ -171,7 +171,6 @@ const handlePage = async (page) => {
     ignoreHTTPSErrors: true,
     args: [
       "--disable-web-security",
-      "--proxy-server=socks5://localhost:9050",
       "--no-sandbox",
       "--disable-setuid-sandbox",
     ],
